@@ -1,0 +1,90 @@
+/* CALLOUT */
+/* -------------------------------------------- */
+.bs-callout {
+  margin:20px 0;
+  padding:20px;
+  border-left:3px solid #eee;
+}
+
+.bs-callout h4 {
+  margin-top:0;
+  margin-bottom:5px;
+}
+
+.bs-callout p:last-child{
+  margin-bottom:0;
+}
+
+.bs-callout code{
+  background-color:#fff;
+  border-radius:3px;
+}
+
+.bs-callout-danger{
+  background-color:#fdf7f7;
+  border-color:#d9534f;
+}
+.bs-callout-danger h4{
+  color:#d9534f;
+}
+
+.bs-callout-warning{
+  background-color:#fcf8f2;
+  border-color:#f0ad4e;
+}
+.bs-callout-warning h4{
+  color:#f0ad4e;
+}
+
+.bs-callout-info{
+  background-color:#f4f8fa;
+  border-color:#5bc0de;
+}
+.bs-callout-info h4 {
+  color:#5bc0de;
+}
+
+/* CONTAINERS */
+/* -------------------------------------------- */
+.container-fluid {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.container-odd {
+  background-color: #eee;
+}
+#historique {
+  border-top: 2px solid #999;
+  margin-top: -40px;
+  padding-top: 60px;
+}
+#contact {
+  border-bottom: 2px solid #428bca;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+}
+footer {
+  padding-top: 20px;
+}
+
+/* FEATURETTES */
+/* -------------------------------------------- */
+.featurette {
+  display: flex;
+  flex-flow: row;
+}
+
+.featurette>div {
+  margin: auto;
+}
+
+.featurette h2.featurette-heading {
+  margin-top: auto;
+}
+
+/* LISTS */
+/* -------------------------------------------- */
+ul.list-unstyled {
+  line-height: 2em;
+}
