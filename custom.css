@@ -6,7 +6,7 @@ footer {
 }
 
 /* Spacing unstyled lists */
-ul.list-unstyled {
+ul.list-styled {
   line-height: 2em;
 }
 
