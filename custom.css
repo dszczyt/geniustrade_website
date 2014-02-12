@@ -84,16 +84,15 @@ ul.list-unstyled {
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  text-align: center;
+.marketing .row>div {
   margin-bottom: 20px;
+  text-align: center;
 }
 .marketing h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
-  margin-left: 10px;
-  margin-right: 10px;
+.marketing p {
+  text-align: left;
 }
 
 
@@ -102,7 +101,7 @@ ul.list-unstyled {
 
 .featurette {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
 }
 
 .featurette>div {
@@ -154,6 +153,10 @@ h2.featurette-heading {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+  }
+
+  .featurette {
+    flex-flow: row;
   }
 
   .featurette-heading {
