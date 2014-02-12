@@ -8,6 +8,7 @@ footer {
 /* Spacing unstyled lists */
 ul.list-styled {
   line-height: 2em;
+  padding-left: 20px;
 }
 
 
