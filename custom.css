@@ -49,8 +49,9 @@ ul.list-unstyled {
   margin-bottom: 60px;
   background-color: transparent;
   background-image: url('./img/world-exchange.jpg');
-  background-position: 50% 50%;
-  background-size: 100%
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 200%
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -124,6 +125,10 @@ h2.featurette-heading {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+
+  .carousel {
+    background-size: 100%
+  }
 
   /* Remove the edge padding needed for mobile */
   .marketing {
