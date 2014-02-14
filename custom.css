@@ -93,7 +93,7 @@ ul.list-styled {
   font-weight: normal;
 }
 .marketing p {
-  text-align: left;
+  text-align: justify;
 }
 
 
@@ -230,11 +230,14 @@ h2.featurette-heading {
 }
 #historique {
   border-top: 2px solid #999;
-  margin-top: -40px;
   padding-top: 60px;
 }
 #contact {
   border-bottom: 2px solid #428bca;
   padding-bottom: 60px;
   margin-bottom: 0px;
+}
+
+.lead {
+  text-align: justify;
 }
