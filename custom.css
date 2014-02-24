@@ -232,6 +232,9 @@ h2.featurette-heading {
   border-top: 2px solid #999;
   padding-top: 60px;
 }
+#temoignages {
+  margin-bottom: 0px;
+}
 #contact {
   border-bottom: 2px solid #428bca;
   padding-bottom: 60px;
