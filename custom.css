@@ -234,6 +234,10 @@ h2.featurette-heading {
 .container-odd {
   background-color: #eee;
 }
+#pourquoi_geniustrade {
+  margin-top: -40px;
+  padding-top: 60px;
+}
 #notre_metier {
   border-top: 2px solid #999;
   margin-top: -40px;
