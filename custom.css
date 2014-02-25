@@ -15,6 +15,10 @@ ul.list-styled {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
+.navbar-nav {
+  margin: 0 -15px;
+}
+
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -242,6 +246,9 @@ h2.featurette-heading {
   border-top: 2px solid #999;
   margin-top: -40px;
   padding-top: 60px;
+}
+#fiche_identite {
+  background: white url('img/entreprise.png') bottom right no-repeat;
 }
 #contact {
   border-bottom: 2px solid #428bca;
