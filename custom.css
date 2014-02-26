@@ -11,6 +11,14 @@ ul.list-styled {
   padding-left: 20px;
 }
 
+blockquote {
+  font-size: medium;
+}
+
+span[lang] {
+  font-style: italic;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -22,9 +30,9 @@ ul.list-styled {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
+  top: 0;
   z-index: 20;
 }
 
@@ -39,10 +47,14 @@ ul.list-styled {
 }
 
 .navbar-wrapper .navbar .container {
+  background: transparent url('./img/g-logo.png') top right no-repeat;
   padding-right: 60px;
-  background-image: url('./img/g-logo.png');
-  background-repeat: no-repeat;
-  background-position: top right;
+}
+
+/* CUSTOMIZE JUMBOTRON
+-------------------------------------------------- */
+.jumbotron {
+  background-color: transparent;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -50,38 +62,19 @@ ul.list-styled {
 
 /* Carousel base class */
 .carousel {
-  height: 350px;
-  margin-bottom: 60px;
-  background-color: transparent;
-  background-image: url('./img/world-exchange.jpg');
+  background-image: url('./img/genius.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 200%
+  background-size: 200%;
+  height: 450px;
+  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  position: absolute;
-  top: 50px;
   left: 0;
   right: 0;
-  z-index: 10;
-  background-color: transparent;
+  top: 50px;
 }
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 350px;
-  background-color: transparent;
-}
-/* .carousel-inner > .item > img { */
-/*   position: absolute; */
-/*   top: 0; */
-/*   left: 0; */
-/*   min-width: 100%; */
-/*   height: 350px; */
-/* } */
-
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -110,11 +103,8 @@ ul.list-styled {
 
 .featurette {
   display: flex;
+  align-items: center;
   flex-flow: column;
-}
-
-.featurette>div {
-  margin: auto;
 }
 
 .featurette-divider {
@@ -124,8 +114,8 @@ ul.list-styled {
 /* Thin out the marketing headings */
 h2.featurette-heading {
   font-weight: 300;
-  line-height: 1;
   letter-spacing: -1px;
+  line-height: 1;
   margin-top: auto;
 }
 
@@ -135,7 +125,7 @@ h2.featurette-heading {
 @media (min-width: 768px) {
 
   .carousel {
-    background-size: 100%
+    background-size: 98%
   }
 
   /* Remove the edge padding needed for mobile */
@@ -159,9 +149,9 @@ h2.featurette-heading {
 
   /* Bump up size of carousel content */
   .carousel-caption p {
-    margin-bottom: 20px;
     font-size: 21px;
-    line-height: 1.4;
+    line-height: 1.8em;
+    margin-bottom: 20px;
   }
 
   .featurette {
@@ -183,40 +173,19 @@ h2.featurette-heading {
 /* CUSTOMIZE CALLOUT
 -------------------------------------------------- */
 .bs-callout {
+  border-left:3px solid #eee;
   margin:20px 0;
   padding:20px;
-  border-left:3px solid #eee;
 }
 
 .bs-callout h4 {
-  margin-top: 0;
   margin-bottom:5px;
+  margin-top: 0;
 }
 
 .bs-callout p:last-child{
   margin-bottom: 0;
 }
-
-/* .bs-callout code{ */
-/*   background-color:#fff; */
-/*   border-radius:3px; */
-/* } */
-
-/* .bs-callout-danger{ */
-/*   background-color:#fdf7f7; */
-/*   border-color:#d9534f; */
-/* } */
-/* .bs-callout-danger h4{ */
-/*   color:#d9534f; */
-/* } */
-
-/* .bs-callout-warning{ */
-/*   background-color:#fcf8f2; */
-/*   border-color:#f0ad4e; */
-/* } */
-/* .bs-callout-warning h4{ */
-/*   color:#f0ad4e; */
-/* } */
 
 .bs-callout-info{
   background-color:#f4f8fa;
@@ -230,10 +199,7 @@ h2.featurette-heading {
 -------------------------------------------------- */
 .container-fluid {
   margin-bottom: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 20px 0;
 }
 .container-odd {
   background-color: #eee;
@@ -244,6 +210,7 @@ h2.featurette-heading {
 }
 #notre_metier {
   border-top: 2px solid #999;
+  font-size: medium;
   margin-top: -40px;
   padding-top: 60px;
 }
@@ -252,8 +219,8 @@ h2.featurette-heading {
 }
 #contact {
   border-bottom: 2px solid #428bca;
-  padding-bottom: 60px;
   margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
 .lead {
