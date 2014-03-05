@@ -48,6 +48,9 @@ span[lang] {
   background-repeat: no-repeat;
   padding-right: 60px;
 }
+#connexion a.btn:hover {
+  background-color: #5bc0de;
+}
 
 /* CUSTOMIZE JUMBOTRON
 -------------------------------------------------- */
