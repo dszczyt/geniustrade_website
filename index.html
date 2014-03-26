@@ -1,452 +1,373 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<html lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="description" content="GeniusTrade est une application web vous permettant d’harmoniser, structurer et faciliter tous vos processus d’achats à l’international.">
+    <meta name="author" content="PleinNet SARL">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
-        <title>GeniusTrade — Application dédié négoce & import.</title>
+    <title>GeniusTrade — Application dédiée au égoce et à l'import.</title>
 
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-        <!-- Font Awesome core CSS -->
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <link href="custom.css" rel="stylesheet">
+  </head>
 
-        <!-- Custom styles for this template -->
-        <link href="custom.css" rel="stylesheet">
-    </head>
-
-    <!-- NAVBAR
-    ================================================== -->
-    <body>
-        <div class="navbar-wrapper">
-            <div class="container">
-
-                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">GeniusTrade</a>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Accueil</a></li>
-                                <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entreprise <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-header">Notre solution</li>
-                                    <li><a href="#pourquoi_geniustrade">Pourquoi GeniusTrade ?</a></li>
-                                    <li><a href="#secteurs_activite">Secteurs d'activité</a></li>
-                                    <li><a href="#technologies">Technologies</a></li>
-                                    <li><a href="#temoignages">Témoignages</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Notre Société</li>
-                                    <li><a href="#notre_metier">Notre métier</a></li>
-                                    <li><a href="#historique">Historique</a></li>
-                                </ul>
-                                </li>
-                                <li><p class="navbar-text">Vidéos</p></li>
-                                <li><a href="#contact">Nous contacter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Afficher/Masquer la navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">GeniusTrade</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Accueil</a></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solution <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Notre solution</li>
+                <li><a href="#pourquoi_geniustrade">Pourquoi GeniusTrade ?</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+              </ul>
+              </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entreprise <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Notre Société</li>
+                <li><a href="#notre_metier">Notre métier</a></li>
+                <li><a href="#notre_metier">Fiche d'identité</a></li>
+              </ul>
+              </li>
+              <li><p class="navbar-text" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Prochainenemt…">Vidéos</p></li>
+              <li><a href="#contact">Nous contacter</a></li>
+            </ul>
+            <div class="nav navbar-nav navbar-form navbar-right" id="connexion">
+              <a class="btn btn-info" href="https://v4.geniustrade.com">Connexion</a>
             </div>
+          </div>
+        </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid carousel bg-info">
+      <div class="container">
+        <div class="jumbotron carousel-caption">
+          <h1>GeniusTrade</h1>
+          <p> Enfin une solution dédiée au négoce et à l'import !<br>
+          Harmonisez, structurez et optimisez tous vos processus d’achats à l’international.</p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
+              <div class="btn-group btn-group-justified">
+                <a class="btn btn-lg btn-info"  href="mailto:contact@geniustrade.com?subject=Demande de devis" role="button">Demander un devis</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="btn-group btn-group-justified">
+                <a class="btn btn-lg btn-default" href="img/plaquette-geniustrade.pdf" role="button">Télécharger la brochure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="pourquoi_geniustrade">
+      <div class="container featurettes">
+        <div class="row featurette">
+          <div class="col-xs-12 col-sm-7 col-sm-push-5">
+            <h2 class="featurette-heading">Minimisez les risques. <span class="text-muted">Estimez vos prix au plus juste.</span></h2>
+            <p class="lead text-justify"><strong>GeniusTrade</strong> permet à vos collaborateurs de calculer un prix de revient instantanément, en prenant en compte de nombreux critères : Incoterms, tests en laboratoire, coûts d'inspections, coûts de fret, répartition optimale des containers, etc…). Le tout en quelques clics. Ainsi vos commerciaux se concentrent uniquement sur leurs ventes.</p>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+            <img class="featurette-image img-responsive img-rounded" src="img/minimisez_vos_risques.png" width="500" height)"500" alt="Minimisez les risques.">
+          </div>
         </div>
 
+        <hr class="featurette-divider">
 
-        <!-- <1!-- Carousel -->
-        <!-- ================================================== --1> -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!--   <1!-- Indicators --1> -->
-            <!--   <ol class="carousel-indicators"> -->
-            <!--     <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
-            <!--     <li data-target="#myCarousel" data-slide-to="1"></li> -->
-            <!--     <li data-target="#myCarousel" data-slide-to="2"></li> -->
-            <!--   </ol> -->
-            <div class="carousel-inner">
-                <div class="item active">
-            <!-- <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" width="900" height="500" alt="First slide"> -->
-                    <div class="container">
-                        <div class="carousel-caption jumbotron">
-                            <h1>GeniusTrade</h1>
-                            <p>Enfin une solution dédiée au négoce et à l'import.</p>
-                            <div class="row">
-                                <div class="col-xs-12 col-md-6 col-lg-5 col-lg-offset-1">
-                                    <div class="btn-group btn-group-justified">
-                                        <a class="btn btn-lg btn-primary" href="#" role="button">Demander un devis</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-6 col-lg-5">
-                                    <div class="btn-group btn-group-justified">
-                                        <a class="btn btn-lg btn-default" href="#" role="button">Télécharger la brochure</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!--     <div class="item"> -->
-            <!--       <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" width="900" height="500" alt="Second slide"> -->
-            <!--       <div class="container"> -->
-            <!--         <div class="carousel-caption"> -->
-            <!--           <h1>Another example headline.</h1> -->
-            <!--           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
-            <!--           <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
-            <!--         </div> -->
-            <!--       </div> -->
-            <!--     </div> -->
-            <!--     <div class="item"> -->
-            <!--       <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" width="900" height="500" alt="Third slide"> -->
-            <!--       <div class="container"> -->
-            <!--         <div class="carousel-caption"> -->
-            <!--           <h1>One more for good measure.</h1> -->
-            <!--           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
-            <!--           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
-            <!--         </div> -->
-            <!--       </div> -->
-            <!--     </div> -->
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h2 class="featurette-heading">Prévoyez vos coûts. <span class="text-muted">Prenez de l'avance sur vos transitaires.</span></h2>
+            <p class="lead text-justify">Renseignez les tarifs communiqués par vos transitaires grâce à une interface intuitive, définissez une marge de sécurité, et c’est tout ! <strong>GeniusTrade</strong> s’occupe du reste : choix du meilleur transitaire, répartition optimale des containers… Et le tout en un clin d’œil !</p>
+          </div>
+          <div class="col-sm-5">
+            <img class="featurette-image img-responsive img-rounded" src="img/prevoyez_vos_couts.png" width="500" height)"500" alt="Prévoyez vos coûts.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-xs-12 col-sm-7 col-sm-push-5">
+            <h2 class="featurette-heading">Suivez vos expéditions. <span class="text-muted">Anticipez. Soyez réactifs !</span></h2>
+            <p class="lead text-justify">Suivez vos expéditions de A à Z : de la production de vos produits à l’arrivée dans vos entrepôts (ou chez votre client) par un simple indicateur visuel. Vous pouvez ainsi suivre et analyser la qualité de vos expéditions, prévenir un retard et réagir promptement à tout manquement.</p>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+            <img class="featurette-image img-responsive img-rounded" src="img/suivez_vos_expeditions.png" width="500" height)"500" alt="Suivez vos expéditions.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h2 class="featurette-heading">Fédérez. <span class="text-muted">Vos méthodes de travail sont uniformisées.</span></h2>
+            <p class="lead text-justify"><strong>GeniusTrade</strong> est avant tout un outil collaboratif qui permet à tous vos collaborateurs de travailler ensemble. <span lang="en">Designers</span>, acheteurs, commerciaux et dirigeants échangent et partagent dans un objectif commun : votre réussite.</p>
+          </div>
+          <div class="col-sm-5">
+            <img class="featurette-image img-responsive img-rounded" src="img/federez.png" width="500" height)"500" alt="Fédérez.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h2 class="featurette-heading">Facilité de mise en place. <span class="text-muted">Déployez en un éclair !</span></h2>
+            <p class="lead text-justify">Contrairement à une solution <abbr lang="en" class="initialism" title="Entreprise Resource Planning">ERP</abbr> classique, le mode <abbr lang="en" title="Software as a Service">SaaS</abbr> nous offre davantage de réactivité et de souplesse au stade de la mise en place de l’outil. <strong>GeniusTrade</strong> fonctionne sur tout type d’ordinateurs ou terminaux mobiles disposant d’un navigateur web et d’un accès à internet.</p>
+            <div class="bs-callout bs-callout-info">
+              <h4>Vous embauchez de nouveaux collaborateurs ?</h4> L’approche SaaS permet également une mise à l’échelle instantannée.
             </div>
-            <!--   <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> -->
-            <!--   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> -->
-        </div><!-- /.carousel -->
+          </div>
+          <div class="col-sm-5">
+            <img class="featurette-image img-responsive img-rounded" src="img/facilite_de_mise_en_place.png" width="500" height)"500" alt="Facilité de mise en place.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-xs-12 col-sm-7 col-sm-push-5">
+            <h2 class="featurette-heading">Rapide & sécurisé. <span class="text-muted">Offrez-vous une expérience unique !</span></h2>
+            <p class="lead text-justify">Avec <strong>GeniusTrade</strong> nous recherchons toujours la performance pour vous offrir une expérience utilisateur inégalable ! Ainsi vos collaborateurs gagnent en efficacité et en réactivité. Bien sûr, nous n'oublions pas pour autant la sécurité : une connexion sécurisée vous garanti sérénité et confidentialité.</p>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+            <img class="featurette-image img-responsive img-rounded" src="img/rapide_et_securise.png" width="500" height)"500" alt="Rapide & sécurisé">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h2 class="featurette-heading">Intégration à votre existant. <span class="text-muted">Communiquez.</span></h2>
+            <p class="lead text-justify"><strong>GeniusTrade</strong> dispose d’une <abbr lang="en" class="initialism" title="Application Programming Interface">API</abbr> qui lui permet de dialoguer avec d’autres logiciels tels que votre <abbr lang="en" class="initialism" title="Entreprise Resource Planning">ERP</abbr>, votre comptabilité ou <span lang="en">Google&nbsp;Apps</span>.</p>
+          </div>
+          <div class="col-sm-5">
+            <img class="featurette-image img-responsive img-rounded" src="img/integration_a_votre_existant.png" width="500" height)"500" alt="Intégration à votre existant.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-xs-12 col-sm-7 col-sm-push-5">
+            <h2 class="featurette-heading">Flexibilité. <span class="text-muted">Exprimez vos besoins.</span></h2>
+            <p class="lead text-justify">Nous sommes éditeur de notre propre solution. Notre philosophie est d’adapter notre application aux besoins spécifiques de nos clients.</p>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+            <img class="featurette-image img-responsive img-rounded" src="img/flexibilite.png" width="500" height)"500" alt="Flexibilité.">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h2 class="featurette-heading">Pas de mauvaise surprise. <span class="text-muted">Zéro frais caché !</span></h2>
+            <p class="lead text-justify"><strong>GeniusTrade</strong> est disponible exclusivement sous forme d’un abonnement mensuel par utilisateur. Cet abonnement comprend :</p>
+            <ul class="lead">
+              <li>Un accès illimité 24h/24 et 7j/7 à <strong>GeniusTrade</strong></li>
+              <li>L’hébergement sécurisé de vos données</li>
+              <li>Des mises à jour régulières</li>
+              <li>L’accès aux <abbr class="initialism" title="Application Programming Interface">API</abbr></li>
+            </ul>
+            <p class="lead text-justify">Pour un prix unique de <strong>190 € / mois / utilisateur</strong>.</p>
+
+            <div class="bs-callout bs-callout-info">
+              <h4>Tout est compris ! <small>hors frais de formation</small></h4> Autrement dit, pas de ticket d’entrée, pas de frais de mises à jour.</p>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <img class="featurette-image img-responsive img-rounded" src="img/zero_frais_cache.png" width="500" height)"500" alt="Generic placeholder image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-odd" id="temoignages">
+      <div class="container">
+        <div class="page-header">
+          <h1>Témoignages</h1>
+        </div>
+        <blockquote>
+          <p><i class="fa fa-quote-left fa-2x pull-left"></i>Importateur et designer de fournitures non alimentaires pour compagnies aériennes, nous gérions notre activité Import à l’aide d’outils informatiques indépendants les uns des autres. Avec la mise en place de <strong>GeniusTrade</strong>, nous avons regroupé les données de l’entreprise autour d’une même plateforme. Aujourd’hui nous pouvons communiquer sur l’ensemble de la chaîne : des nouvelles idées à la livraison client. Du point de vue management, nous avons un retour plus détaillé sur l’activité de l’entreprise, et nous pouvons mieux apprécier le travail de nos collaborateurs. La société <strong>GeniusTrade</strong>, en partant toujours de l’analyse de nos besoins concrets, a developpé progressivement une solution informatique sur mesure. Nous communiquons mieux entre nous, nous sommes plus réactifs et plus performants. Les résultats sont là : le taux de transformation projet augmente et notre chiffre d’affaires aussi. Désormais, tous nos collaborateurs utilisent <strong>GeniusTrade</strong>.<p>
+          <footer>Albert Facques, <abbr class="initialism">PDG</abbr> de <cite title="Bayart Innovations">Bayart Innovations</cite></footer>
+        </blockquote>
+        <blockquote>
+          <p><i class="fa fa-quote-left fa-2x pull-left"></i>
+          <strong>GeniusTrade</strong> nous permet d’optimiser et de partager le travail de chacun puisque nous pouvons exploiter les produits travaillés par les autres en effectuant une recherche simple par mots clés. Nous sommes en mesure de prendre le relais sur le suivi des commandes de nos collègues très facilement, lors de périodes d’absences par exemple, sans devoir s’encombrer d’un dossier, car il est possible de visualiser l’avancée grâce au <span lang="en">dashboard</span>.<p>
+          <footer>Valérie, Assistante commerciale dans l'objet promotionnel</footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-info" id="notre_metier">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Notre métier</h1>
+            <p>Forts d'une longue expérience, à la fois dans le domaine des nouvelles technologies et celui de l’import / export, nous avons conçu <strong>GeniusTrade</strong> dans le but d’apporter <strong class="text-primary">une solution simple et efficace</strong> destinée aux entreprises de négoce et d’import.</p>
+            <p><strong>GeniusTrade</strong> est une application web (fonctionnant en mode SaaS) qui permet d’<strong class="text-primary">harmoniser, structurer et faciliter tous vos processus</strong> d’achats à l’international.</p>
+            <p>Décomposé en plusieurs modules allant de la gestion de parc clients / fournisseurs, aux produits et suivi de commandes, en passant par un outil de calcul complet de coûts d’import, elle apporte <strong class="text-primary">lisibilité, rapidité et efficience</strong> tout au long du processus d’achat import/export.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default" id="fiche_identite">
+              <div class="panel-body">
+                <h2>Fiche d’identité</h2>
+                <dl class="dl-horizontal">
+                  <dt>Structure juridique</dt><dd>SARL</dd>
+                  <dt>Date de création</dt><dd>10 Septembre 2008</dd>
+                  <dt>Code APE</dt><dd>6202A</dd>
+                  <dt>SIRET</dt><dd>50822005000019</dd>
+                  <dt>RCS</dt><dd>508220050</dd>
+                  <dt>Dirigeant</dt><dd>Damien SZCZYT, Gérant</dd>
+                  <dt>Adresse</dt><dd><address>
+                    Parc des Moulins,<br>
+                    19 Avenue de la créativité<br>
+                    59650 VILLENEUVE D’ASCQ<br>
+                    France
+                  </address></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid marketing" id="technologies">
+      <div class="container">
+        <div class="page-header">
+          <h1>Technologies</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 clearfix">
+            <img src="img/postgresql.png" width="140" height="140" alt="PostgreSQL">
+            <h2>PostgreSQL</h2>
+            <p>PostgreSQL est le système de gestion de bases de données <span lang="en">OpenSource</span> de référence. Sa communauté, mondiale, est composée de milliers d'utilisateurs et contributeurs, et de plusieurs dizaines de compagnies et institutions. Le projet PostgreSQL, démarré il y a plus de 20 ans, à l'université de Californie, à Berkeley, a atteint aujourd'hui un rythme de développement sans pareil. L'ensemble des fonctionnalités matures a, non seulement, rejoint celui de systèmes commerciaux <span lang="en">leaders</span>, mais le dépasse même dans les fonctionnalités avancées, les extensions, la sécurité et la stabilité.</p>
+            <div class="text-muted">
+              <a rel="nofollow" target="_blank" href="http://www.postgresql.fr"><i class="fa fa-external-link pull-right"> postgresql.fr</i></a>
+            </div>
+          </div>
+          <div class="col-md-4 clearfix">
+            <img src="img/rails.png" width="140" height="140" alt="Ruby on Rails">
+            <h2>Ruby on Rails</h2>
+            <p>Ruby on Rails, également appelé Rails ou encore RoR, est un <span lang="en">framework</span> web libre écrit en Ruby.</p>
+            <p><b>Qui utilise Ruby on Rails ?</b> <a rel="nofollow" target="_blank" href="https://basecamp.com">Basecamp <i class="fa fa-external-link"></i></a> pour commencer, le produit phare de <span lang="en">37signals</span>, la société à l'origine de ce <span lang="en">framework</span>. Ainsi que d'autres sites dont vous avez déjà sans doute entendu parlé :
+            <a rel="nofollow" target="_blank" href="https://twitter.com">Twitter <i class="fa fa-external-link"></i></a>,
+            <a rel="nofollow" target="_blank" href="http://www.groupon.fr">Groupon <i class="fa fa-external-link"></i></a>,
+            <a rel="nofollow" target="_blank" href ="http://www.sageone.fr">SageOne <i class="fa fa-external-link"></i></a>,
+            <a rel="nofollow" target="_blank" href="http://www.shopify.com">Shopify <i class="fa fa-external-link"></i></a> et beaucoup d'autres.</p>
+            <p><b>Pourquoi utilisons-nous Ruby on Rails plutôt qu'un autre <span lang="en">framework</span> ?</b> Tout simplement parce qu'il nous permet de développer des applications comme <strong>GeniusTrade</strong> plus vite et plus intuitivement. Il ajoute aussi un grand niveau d’abstraction et nous offre un haut degré de flexibilité, nous permettant de faire évoluer <strong>GeniusTrade</strong> facilement.</p>
+            </p>
+            <div class="text-muted">
+              <a rel="nofollow" target="_blank" href="http://rubyonrails.org"><i class="fa fa-external-link pull-right"> rubyonrails.org</i></a><br>
+              <a rel="nofollow" target="_blank" href="http://railsfrance.org"><i class="fa fa-external-link pull-right"> railsfrance.org</i></a>
+            </div>
+          </div>
+          <div class="col-md-4 clearfix">
+            <img src="img/angularjs.png" width="140" height="140" alt="AngularJS">
+            <h2>AngularJS</h2>
+            <p>De nos jours les applications web sont de plus en plus riches, aux fonctionnalités comparables à des applications lourdes enrichies par le <span lang="en">Cloud</span>. Les besoins ont évolué, et heureusement, nos outils aussi. AngularJS, une technologie <span lang="en">OpenSource</span> de Google écrite en Javascript, se présente comme un <span lang="en">framework</span> dont le but est de structurer le code côté navigateur, améliorant ainsi l'ergonomie de l'interface et offrant une grande facilité de prise en main de l'application.</p>
+            <div class="text-muted">
+              <a rel="nofollow" target="_blank" href="http://angularjs.org"><i class="fa fa-external-link pull-right"> angularjs.org</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-odd" id="contact">
+      <div class="container">
+        <div class="page-header">
+          <h1>Contact</h1>
+        </div>
+
+        <div class="row questions">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-0">
+            <ul class="list-styled">
+              <li>Vous êtes importateur, <abbr class="initialism">VPC</abbr>iste, grossiste ?</li>
+              <li>Vous êtes une <abbr class="initialism">PME</abbr> et vous cherchez à harmoniser vos processus d’achat ?</li>
+              <li>Vous recherchez une solution qui réponde précisemment à vos besoin ?</li>
+              <li>Vous avez besoin d’une solution simple et rapide ?</li>
+              <li>Vous souhaitez structurer rapidement votre activité d’import ?</li>
+              <li>Vous souhaitez vous développer à l’international ?</li>
+              <li>Vous souhaitez mesurer vos performances et analyser vos écarts prévu/réalisé ?</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-0">
+              <p class="lead">Alors <strong>GeniusTrade</strong> est la solution qu’il vous faut !</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
+            <div class="btn-group btn-group-justified">
+              <a class="btn btn-default btn-lg btn-block" href="mailto:contact@geniustrade.com?subject=Demande de renseignements">
+                <i class="fa fa-envelope-o"></i> Ecrivez-nous</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="btn-group btn-group-justified">
+              <a class="btn btn-default btn-lg btn-block" href="tel:0033354680850">
+                <i class="fa fa-phone"></i> Appelez-nous</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-        <!-- Marketing messaging and featurettes
-        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container">
+      <footer>
+      <p class="pull-right"><a href="#"><i class="fa fa-arrow-up"> Haut de page</i></a></p>
+      <p>&copy; 2014 PleinNet SARL &middot; <a href="#">Conditions Générales</a></p>
+      </footer>
+    </div>
 
-        <div class="container-fluid marketing">
-            <div class="container">
-                <!-- Three columns of text below the carousel -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="img-circle" data-src="holder.js/140x140" width="140" height="140" alt="Generic placeholder image">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <img class="img-circle" data-src="holder.js/140x140" width="140" height="140" alt="Generic placeholder image">
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <img class="img-circle" data-src="holder.js/140x140" width="140" height="140" alt="Generic placeholder image">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.container -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript">(function() { $("[data-toggle=popover]").popover(); })();</script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
-        <div class="container-fluid" id="pourquoi_geniustrade">
-            <div class="container featurettes">
-                <!-- START THE FEATURETTES -->
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Minimisez les risques. <span class="text-muted">Estimez vos prix au plus juste.</span></h2>
-                        <p class="lead"><strong>GeniusTrade</strong> permet à vos collaborateurs de calculer un prix de revient instantanément, en prenant en compte de nombreux critères : Incoterms, tests en laboratoire, coûts d'inspections, coûts de fret, répartition optimale des containers, etc…). Le tout en quelques clics. Ainsi vos commerciaux se concentrent uniquement sur leurs ventes.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5 col-md-pull-7">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Prévoyez vos coûts. <span class="text-muted">Prenez de l'avance sur vos transitaires.</span></h2>
-                        <p class="lead">Renseignez les tarifs communiqués par vos transitaires grâce à une interface intuitive, définissez une marge de sécurité, et c’est tout ! <strong>GeniusTrade</strong> s’occupe du reste : choix du meilleur transitaire, répartition optimale des containers… Et le tout en un clin d’œil !</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Suivez vos expéditions. <span class="text-muted">Anticipez. Soyez réactifs !</span></h2>
-                        <p class="lead">Suivez vos expéditions de A à Z : de la production de vos produits à l’arrivée dans vos entrepôts (ou chez votre client) par un simple indicateur visuel. Vous pouvez ainsi suivre et analyser la qualité de vos expéditions, prévenir un retard et réagir promptement à tout manquement.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5 col-md-pull-7">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Fédérez. <span class="text-muted">Vos méthodes de travail sont uniformisées.</span></h2>
-                        <p class="lead"><strong>GeniusTrade</strong> est avant tout un outil collaboratif qui permet à tous vos collaborateurs de travailler ensemble. Designers, acheteurs, commerciaux et dirigeants échangent et partagent dans un objectif commun : votre réussite.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Facilité de mise en place. <span class="text-muted">Déployez en un éclair !</span></h2>
-                        <p class="lead">Contrairement à une solution <abbr class="initialism" title="Entreprise Resource Planning">ERP</abbr> classique, le mode <abbr title="Software as a Service">SaaS</abbr> nous offre davantage de réactivité et de souplesse au stade de la mise en place de l’outil. <strong>GeniusTrade</strong> fonctionne sur tout type d’ordinateurs ou terminaux mobiles disposant d’un navigateur web et d’un accès à internet.</p>
-                        <div class="bs-callout bs-callout-info">
-                            <h4>Vous embauchez de nouveaux collaborateurs ?</h4> L’approche SaaS permet également une mise à l’échelle instantannée.
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Rapide & sécurisé. <span class="text-muted">Offrez-vous une expérience unique !</span></h2>
-                        <p class="lead">Avec <strong>GeniusTrade</strong> nous recherchons toujours la performance pour vous offrir une expérience utilisateur inégalable ! Ainsi vos collaborateurs gagnent en efficacité et en réactivité. Bien sûr, nous n'oublions pas pour autant la sécurité : une connexion sécurisée vous garanti sérénité et confidentialité.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5 col-md-pull-7">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Intégration à votre existant. <span class="text-muted">Communiquez.</span></h2>
-                        <p class="lead"><strong>GeniusTrade</strong> dispose d’une <abbr class="initialism" title="Application Programming Interface">API</abbr> qui lui permet de dialoguer avec d’autres logiciels tels que votre <abbr class="initialism">ERP</abbr>, votre comptabilité ou Google&nbsp;Apps.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Flexibilité. <span class="text-muted">Exprimez vos besoins.</span></h2>
-                        <p class="lead">Nous sommes éditeur de notre propre solution. Notre philosophie est d’adapter notre application aux besoins spécifiques de nos clients.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5 col-md-pull-7">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Pas de mauvaise surprise. <span class="text-muted">Zéro frais caché !</span></h2>
-                        <p class="lead"><strong>GeniusTrade</strong> est disponible exclusivement sous forme d’un abonnement mensuel par utilisateur. Cet abonnement comprend :</p>
-                        <ul class="lead">
-                            <li>Un accès illimité 24h/24 et 7j/7 à <strong>GeniusTrade</strong></li>
-                            <li>L’hébergement sécurisé de vos données</li>
-                            <li>Des mises à jour régulières</li>
-                            <li>L’accès aux <abbr class="initialism" title="Application Programming Interface">API</abbr></li>
-                        </ul>
-                        <p class="lead">Pour un prix unique de <strong>190 € / mois / utilisateur</strong>.</p>
-
-                        <div class="bs-callout bs-callout-info">
-                            <h4>Tout est compris ! <small>hors frais de formation</small></h4> Autrement dit, pas de ticket d’entrée, pas de frais de mises à jour.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" width="500" height)"500" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <!-- /END THE FEATURETTES -->
-
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-        <div class="container-fluid container-odd" id="temoignages">
-            <div class="container">
-                <div class="page-header">
-                    <h1>Témoignages</h1>
-                </div>
-                <blockquote>
-                    <p><i class="fa fa-quote-left fa-2x pull-left"></i>Importateur et designer de fournitures non alimentaires pour compagnies aériennes, nous gérions notre activité Import à l’aide d’outils informatiques indépendants les uns des autres. Avec la mise en place de GeniusTrade, nous avons regroupé les données de l’entreprise autour d’une même plateforme. Aujourd’hui nous pouvons communiquer sur l’ensemble de la chaîne : des nouvelles idées à la livraison client. Du point de vue management, nous avons un retour plus détaillé sur l’activité de l’entreprise, et nous pouvons mieux apprécier le travail de nos collaborateurs. La société GeniusTrade, en partant toujours de l’analyse de nos besoins concrets, a developpé progressivement une solution informatique sur mesure. Nous communiquons mieux entre nous, nous sommes plus réactifs et plus performants. Les résultats sont là : le taux de transformation projet augmente et notre chiffre d’affaires aussi. Désormais, tous nos collaborateurs utilisent GeniusTrade.<p>
-                    <footer>Albert Facques, <abbr class="initialism">PDG</abbr> de <cite title="Bayart Innovations">Bayart Innovations</cite></footer>
-                </blockquote>
-                <blockquote>
-                    <p><i class="fa fa-quote-left fa-2x pull-left"></i>
-                    GeniusTrade nous permet d’optimiser et de partager le travail de chacun puisque nous pouvons exploiter les produits travaillés par les autres en effectuant une recherche simple par mots clés. Nous sommes en mesure de prendre le relais sur le suivi des commandes de nos collègues très facilement, lors de périodes d’absences par exemple, sans devoir s’encombrer d’un dossier, car il est possible de visualiser l’avancée grâce au dashboard.<p>
-                    <footer>Valérie Duhamel, Assistante commerciale, <cite title="Plein Nord">Plein Nord</cite></footer>
-                </blockquote>
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-        <div class="container-fluid" id="notre_metier">
-            <div class="container">
-                <div class="page-header">
-                    <h1>Notre métier</h1>
-                </div>
-                <p>Issus à la fois du monde des nouvelles technologies et de l’import/export, <strong>GeniusTrade</strong> a été conçu dans le but d’apporter <strong class="text-primary">une solution simple et efficace</strong> destinée aux entreprises de négoce et d’import.</p>
-                <p><strong>GeniusTrade</strong> est une application web (fonctionnant en mode SaaS) qui permet d’<strong class="text-primary">harmoniser, structurer et faciliter tous vos processus</strong> d’achats à l’international.</p>
-                <p>Décomposé en plusieurs modules allant de la gestion de parc clients/fournisseurs/produits au suivi de commandes, en passant par un outil de calcul complet de coûts d’import, elle apporte <strong class="text-primary">lisibilité, rapidité et efficience</strong> tout au long du processus d’achat import/export.</p>
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-        <div class="container-fluid bg-info" id="historique">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <h1>Historique</h1>
-                        <dl class="dl-horizontal">
-                            <dt>Juillet 2005</dt><dd>Création d’une activité freelance</dd>
-                            <dt>Mars 2007</dt><dd>Finalisation de la version 1</dd>
-                        <dt>Septembre 2008</dt><dd>Création de la société Geniustrade (Ou Pleinnet)</dd>
-                            <dt>2009</dt><dd>Lancement de la version 2</dd>
-                            <dt>2010</dt><dd>Finalisation de la version 3 et début de phase de commercialisation</dd>
-                        </dl>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h2>Fiche d’identité</h2>
-                                <dl class="dl-horizontal">
-                                    <dt>Structure juridique</dt><dd>SARL</dd>
-                                    <dt>Date de création</dt><dd>10 Septembre 2008</dd>
-                                    <dt>Capital social</dt><dd>7500 €</dd>
-                                    <dt>Code APE</dt><dd>6202A</dd>
-                                    <dt>Numéro de SIRET</dt><dd>50822005000019</dd>
-                                    <dt>Numéro du RCS</dt><dd>508220050</dd>
-                                    <dt>Dirigeants</dt><dd>Damien SZCZYT, Gérant</dd>
-                                    <dt>Adresse</dt><dd><address>
-                                        Parc des Moulins,<br>
-                                        19 Avenue de la créativité<br>
-                                        59650 VILLENEUVE D’ASCQ<br>
-                                        France
-                                    </address></dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-        <div class="container-fluid marketing" id="technologies">
-            <div class="container">
-                <div class="page-header">
-                    <h1>Technologies</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 clearfix">
-                        <img src="img/rails.png" width="140" height="140" alt="Ruby on Rails">
-                        <h2>Ruby on Rails</h2>
-                        <p>Ruby on Rails, également appelé RoR ou Rails est un framework web libre écrit en Ruby. Il propose une structure au programmeur qui lui permet de développer plus vite et plus intuitivement. Il ajoute aussi un grand niveau d’abstraction dans la programmation de l’application par un ensemble de fonctions de haut niveau qui lui offre ainsi l’économie d’écrire lui-même la plupart des routines obligatoires d’une application web.</p>
-                        <div class="text-muted">
-                            <a href="http://rubyonrails.org"><i class="fa fa-external-link pull-right"> rubyonrails.org</i></a><br>
-                            <a href="http://railsfrance.org"><i class="fa fa-external-link pull-right"> railsfrance.org</i></a>
-                        </div>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-md-4 clearfix">
-                        <img src="img/angularjs.png" width="140" height="140" alt="AngularJS">
-                        <h2>AngularJS</h2>
-                        <p>AngularJS est une technologie de Google. Il s’agit d’un framework libre et open-source JavaScript au même titre que MooTools, Prototype ou Dojo. Il a pour but de simplifier la syntaxe JavaScript, et de combler les faiblesses de JavaScript en lui ajoutant de nouvelles fonctionnalités. Et ainsi faciliter la réalisation d’applications web monopages. AngularJS permet d’améliorer grandement la testabilité du code.</p>
-                        <div class="text-muted">
-                            <a href="http://angularjs.org"><i class="fa fa-external-link pull-right"> angularjs.org</i></a>
-                        </div>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-md-4 clearfix">
-                        <img src="img/postgresql.png" width="140" height="140" alt="PostgreSQL">
-                        <h2>PostgreSQL</h2>
-                        <p>PostgreSQL est un système de gestion de base de données relationnelle et objet. C’est un outil libre disponible selon les termes d’une licence de type BSD. A noter que PostgreSQL n’est pas contrôlé par une seule entreprise, mais est fondé sur une communauté mondiale de développeurs et d’entreprises.</p>
-                        <div class="text-muted">
-                            <a href="http://www.postgresql.fr"><i class="fa fa-external-link pull-right"> postgresql.fr</i></a>
-                        </div>
-                    </div><!-- /.col-lg-4 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-        <div class="container-fluid container-odd" id="contact">
-            <div class="container">
-                <div class="page-header">
-                    <h1>Contact</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-                        <ul class="list-styled">
-                            <li>Vous êtes importateur, <abbr class="initialism">VPC</abbr>iste, grossiste ?</li>
-                            <li>Vous êtes une <abbr class="initialism">PME</abbr> et vous cherchez à harmoniser vos processus d’achat ?</li>
-                            <li>Vous recherchez une solution qui réponde précisemment à vos besoin ?</li>
-                            <li>Vous avez besoin d’une solution simple et rapide ?</li>
-                            <li>Vous souhaitez structurer rapidement votre activité d’import ?</li>
-                            <li>Vous souhaitez vous développer à l’international ?</li>
-                            <li>Vous souhaitez mesurer vos performances et analyser vos écarts prévu/réalisé ?</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <p class=" col-xs-12 lead text-center">Si vous vous reconnaissez dans l’une de ces propositions, alors <strong>GeniusTrade</strong> est la solution qu’il vous faut !</p>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-5 col-lg-offset-1">
-                        <div class="btn-group btn-group-justified">
-                            <a class="btn btn-default btn-lg btn-block" href="mailto:contact@geniustrade.com">
-                                <i class="fa fa-envelope-o"></i> Ecrivez-nous</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-5">
-                        <div class="btn-group btn-group-justified">
-                            <a class="btn btn-default btn-lg btn-block" href="tel:0033354680850">
-                                <i class="fa fa-phone"></i> Appelez-nous</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.container -->
-        </div><!-- /.container-fluid -->
-
-
-        <div class="container">
-            <!-- FOOTER -->
-            <footer>
-            <p class="pull-right"><a href="#"><i class="fa fa-arrow-up"> Haut de page</i></a></p>
-            <p>&copy; 2014 PleinNet SARL &middot; <a href="#">Confidentialité</a> &middot; <a href="#">CGV</a></p>
-            </footer>
-        </div><!-- /.container -->
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.min.js"></script>
-    </body>
+        ga('create', 'UA-37226221-1', 'geniustrade.com');
+        ga('send', 'pageview');
+    </script>
+  </body>
 </html>
-
