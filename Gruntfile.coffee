@@ -14,6 +14,8 @@ module.exports = (grunt) ->
       deploy:
         files:
           './': [
+            'robots.txt'
+            'sitemap.xml'
             'index.html'
             'custom.css'
             'img/*'
