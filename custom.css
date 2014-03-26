@@ -20,14 +20,17 @@ span[lang] {
 }
 
 /* mailto: and tel: links */
+a[href^="https://mail.google.com"],
 a[href^="mailto:"],
 a[href^="tel:"] {
   color: #428bca;
 }
+a[href^="https://mail.google.com"]:hover,
 a[href^="mailto:"]:hover,
 a[href^="tel:"]:hover {
   color: #2a6496;
 }
+a[href^="https://mail.google.com"] span,
 a[href^="mailto:"] span,
 a[href^="tel:"] span {
   color: #222;
