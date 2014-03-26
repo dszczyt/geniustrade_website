@@ -19,6 +19,20 @@ span[lang] {
   font-style: italic;
 }
 
+/* mailto: and tel: links */
+a[href^="mailto:"],
+a[href^="tel:"] {
+  color: #428bca;
+}
+a[href^="mailto:"]:hover,
+a[href^="tel:"]:hover {
+  color: #2a6496;
+}
+a[href^="mailto:"] span,
+a[href^="tel:"] span {
+  color: #222;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
