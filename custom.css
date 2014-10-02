@@ -75,10 +75,10 @@ a.btn-tel span {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
-  background-image: url('./img/genius.png');
-  background-position: center center;
+  background-image: url('./img/banniere50.jpg');
+  background-position: -70px bottom;
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 450%;
   height: 450px;
   margin-bottom: 60px;
 }
@@ -184,9 +184,15 @@ h2.featurette-heading {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 568px) {
+  .carousel {
+    background-size: 250%
+  }
+}
+
 @media (min-width: 768px) {
   .carousel {
-    background-size: 98%
+    background-size: 200%
   }
 
   /* Remove the edge padding needed for mobile */
@@ -228,12 +234,21 @@ h2.featurette-heading {
 }
 
 @media (min-width: 992px) {
+  .carousel {
+    background-size: 150%
+  }
+
   .featurette-heading {
     margin-top: 120px;
   }
 }
 
 @media (min-width: 1200px) {
+  .carousel {
+    background-position: left bottom;
+    background-size: 110%
+  }
+
   #contact .questions {
     align-items: center;
     background-image: url('img/accolade.png');
